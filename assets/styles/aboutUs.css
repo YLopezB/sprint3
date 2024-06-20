@@ -1,0 +1,30 @@
+.selection{
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.articles{
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid hotpink;
+    margin: 5px;
+}
+
+.articles p{
+    padding: 10px;
+    font-size: 17px;
+    min-width: 20%;
+    max-width: 50%;
+    color: crimson;
+    text-align: left;
+}
+
+.imgAboutUs{
+    height: 196px;
+    border: 2px solid white;
+    margin: 2px;
+    object-fit: cover;    
+}

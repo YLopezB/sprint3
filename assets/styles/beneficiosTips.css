@@ -1,0 +1,25 @@
+.contenedorTips {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid hotpink;
+    margin-top: 25px;
+}
+.imgTips2{
+    height: 160px;
+    width: 128px;
+    border: 2px solid white;
+    margin: 10px;
+    object-fit: cover;    
+}
+
+.Lista{
+    padding: 15px;
+    min-width: 5%;
+    max-width: 40%;
+    font-size: 15px;
+    text-align: left;
+    color: crimson;
+}

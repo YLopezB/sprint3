@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout{
+    background-color: pink;
+    min-height: 100vh;
+    min-width: none;
+    display: flex;
+    flex-direction: column;
+    }
+
+.header{
+    min-height: 15vh;
+    background-color: hotpink;
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+.headerNav{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.headerNav a{
+    text-decoration: none;
+    font-size: 11px;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.headerNav a[href="#"]{
+    color: crimson;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.headerNav a:hover{
+    background-color: white;
+    color: crimson;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.headerLogo{
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+}
+
+main{
+    flex-grow: 1;
+    padding: 0 15px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 50px;
+    color: hotpink;
+}
+
+h2{
+    font-size: 40px;
+    color: hotpink;
+}
+
+h3{
+    font-size: 20px;
+    color: hotpink;
+}
+
+.footer{
+    min-height: 10vh;
+    background-color: hotpink;
+    padding: 15px;
+}
+
+.footerText{
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (min-width: 768px ){
+    .header{
+        flex-direction: row;
+    }
+    
+    .headerNav{
+        flex-direction: row;
+    }
+}

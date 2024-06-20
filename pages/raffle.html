@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SC - Raffle</title>
+        <link rel="icon" href="../assets/img/icon.png">
+        <link rel="stylesheet" href="../assets/styles/main.css">
+        <link rel="stylesheet" href="../assets/styles/raffle.css">
+    </head>
+    <body>
+        <div class="layout"> 
+            <header class="header">
+                <nav class="headerNav">
+                    <a href="./index.html">Home</a>
+                    <a href="./aboutUs.html">About</a>
+                    <a href="./contact.html">Contact</a>
+                    <a href="./informacion.html">Information</a>
+                    <a href="./berneficiosTips.html">Benefits and Tips</a>
+                    <a href="#">Raffle</a>
+                </nav>
+                
+                <img class="headerLogo" src="../assets/img/logo.png" alt="Snowy cream logo">
+                
+            </header>   
+            <main class="infoMain">
+                <h1>Snowy Cream</h1>
+                <h2>Raffle</h2>
+                <div class="contentRaffle">  
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d697.4642247989963!2d-118.1137450719146!3d33.742115938025904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1718870711941!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <form class="formRaffle" action="./show_data.html" method="get">
+                        
+                        <label>
+                            First Name <br>
+                            <input type="text" name="name" id="name" placeholder="Your first name">
+                        </label>
+                        <label>
+                            Last Name <br>
+                            <input type="text" name="lastname" id="lastname" placeholder="Your last name">
+                        </label>
+                        <label>
+                            Choose Meet or Zoom <br>
+                            <select name="select">
+                                <option value="Meet">Meet</option>
+                                <option value="Zoom">Zoom</option>
+                            </select>
+                        </label>
+                        <label>
+                            Choose Date <br>
+                            <input type="date" name="date" id="" value="2024-06-20">
+                        </label>
+                        <label>
+                            <input type="radio" name="Payment" value="Cash">
+                            Cash
+                        </label>
+                        <label>
+                            <input type="radio" name="payment" value="Debit Card">
+                            Credit Card
+                        </label>
+                        <label>
+                            <input type="radio" name="Payment" value="Credit Card">
+                            Debit Card
+                        </label>
+                        <label for="textarea">
+                            Message (Optional) <br>
+                            <textarea name="" cols="23" rows="10" id="" ></textarea>
+                        </label>
+                        <label for="checkbox"></label>
+                        <input type="checkbox" name="confirm" id="confirm" required value="accept">
+                        <p>I accept terms and conditions</p>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </main>
+            <footer class="footer">
+                <p class="footerText">Created By: Yeison Lopez.</p>
+            </footer>
+        </div>  
+    </body>
+</html>
