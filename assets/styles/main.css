@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
 .layout{
     background-color: pink;
     min-height: 100vh;
@@ -28,12 +39,12 @@
     display: flex;
     gap: 10px;
     flex-direction: column;
-    margin-bottom: 15px;
+    margin: 10px;
 }
 
 .headerNav a{
     text-decoration: none;
-    font-size: 11px;
+    font-size: 15px;
     color: white;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
@@ -43,19 +54,19 @@
 .headerNav a[href="#"]{
     color: crimson;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .headerNav a:hover{
     background-color: white;
     color: crimson;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .headerLogo{
-    width: 128px;
-    height: 128px;
+    width: 180px;
+    height: 180px;
     object-fit: cover;
 }
 
